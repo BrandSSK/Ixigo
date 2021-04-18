@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.ixigo.testCases.TC_001_SearchFlight">
+        <methods>
+          <include name="Search_Flight"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ixigo.testCases.TC_001_SearchFlight -->
+      <class name="com.ixigo.testCases.TC_002_ValidateElements">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateElements"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ixigo.testCases.TC_002_ValidateElements -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="Browser" value="Chrome" />
+    <classes>
+     <!-- <class name="com.ixigo.testBase.BaseClass"/> -->
+     
+      <class name="com.ixigo.testCases.TC_001_SearchFlight"/>  
+      <class name="com.ixigo.testCases.TC_002_ValidateElements"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
